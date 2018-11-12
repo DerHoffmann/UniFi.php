@@ -10,7 +10,7 @@ Liest Daten aus UniFi-Controller aus, um daraus JSON-Dateien für Meshviewer zu 
 
     unifi.php
     |- data
-	    |- nodelist.json
+    	|- nodelist.json
         |- meshviewer.json
     |- src
     	|- Client.php
