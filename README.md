@@ -10,10 +10,10 @@ Liest Daten aus UniFi-Controller aus, um daraus JSON-Dateien für Meshviewer zu 
 
     unifi.php
     |- data
-    	|- nodelist.json
+        |- nodelist.json
         |- meshviewer.json
     |- src
-    	|- Client.php
+   	    |- Client.php
 
 
 Das Script liest die Daten aus einen zu definierenden UniFi-Controller (z.B. UC‑CK) aus und generiert daraus zwei JSON-Dateien. Der URL wird als zusätzliche Quelle im Abschnitt "dataPath" der config.js angegeben:
